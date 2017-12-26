@@ -4,7 +4,7 @@ rem Script to Sync Files from Development Terminal to Version Control
 setlocal enabledelayedexpansion
 
 :: Source Directory where Expert Advisor is located
-set SOURCE_DIR="C:\Program Files (x86)\FxPro - Terminal2\MQL4\Experts\27_k_Nearest"
+set SOURCE_DIR="C:\Program Files (x86)\FxPro - Terminal2\MQL4\Experts\03_FALCON_A"
 :: Destination Directory where Version Control Repository is located
 set DEST_DIR="C:\Users\fxtrams\Documents\000_TradingRepo\FALCON_A"
 
