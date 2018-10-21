@@ -13,3 +13,5 @@ set DEST_DIR2="C:\Program Files (x86)\FxPro - Terminal3\MQL4\Files"
 rem only copy *.dat files
 ROBOCOPY %SOURCE_DIR% %DEST_DIR1% *.dat
 ROBOCOPY %SOURCE_DIR% %DEST_DIR2% *.dat
+
+pause
