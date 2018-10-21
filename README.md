@@ -18,3 +18,7 @@ Original code: Stat_Euclidean_Metric.mq4
 > - Run simulation again
 
 Finally in order to use in trading mode move files from /tester folder to the /Files folder
+
+# Disclaimer
+
+Use on your own risk: past performance is no guarantee of the future results!
