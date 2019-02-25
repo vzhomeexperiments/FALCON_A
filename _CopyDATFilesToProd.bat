@@ -19,4 +19,4 @@ ROBOCOPY %SOURCE_DIR% %DEST_DIR3% *.dat
 ::pause
 
 :: delete data in the file OrdersResultsT1.csv related to the updated systems, also disable sytems in T3
-"C:\Program Files\R\R-3.5.1\bin\Rscript.exe" "C:\Users\fxtrams\Documents\000_TradingRepo\R_tradecontrol\_OT\delete_data_of_re_trained_bots.R"
+::"C:\Program Files\R\R-3.5.1\bin\Rscript.exe" "C:\Users\fxtrams\Documents\000_TradingRepo\R_tradecontrol\_OT\delete_data_of_re_trained_bots.R"
