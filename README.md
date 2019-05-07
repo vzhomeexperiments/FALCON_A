@@ -31,6 +31,20 @@ Original code: Stat_Euclidean_Metric.mq4
 
 Finally in order to use in trading mode move files from /tester folder to the /Files folder
 
+# Optimization Method (on Saturdays!)
+
+1. Check which systems require optimization in the folder 'TEST' see file 're-train'
+2. Write down magic numbers and corresponding currency pair
+3. Select robot FALCON_A in Terminal 2 strategy tester
+4. Select M15, Open Prices, Spread 3
+5. set up date to be | Start: Today - 2month; End: Today
+6. during 'optimization' set max 25 trades, lots = 0.01, Base = True
+7. set up magic number to the one selected in the table (see point 2)
+8. press start in the tester to generate trades
+9. repeat steps 7 - 8 for all magic numbers in the table
+10. execute script _CopyDATFilesToProd.bat to copy generated files to the T1, T3, T4...
+11. Make sure that platforms/computer are restarted
+
 # Disclaimer
 
 Use on your own risk: past performance is no guarantee of the future results!
