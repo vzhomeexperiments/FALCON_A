@@ -9,4 +9,4 @@ set SOURCE_DIR="C:\Program Files (x86)\ICMarkets MT4 Terminal2\MQL4\Experts\03_F
 set DEST_DIR="C:\LazyTrading\GitHub\FALCON_A"
 
 :: Copy only files with *.mq4 extension
-ROBOCOPY %SOURCE_DIR% %DEST_DIR% Falcon_A.mq4
+ROBOCOPY %SOURCE_DIR% %DEST_DIR% *.mq4
