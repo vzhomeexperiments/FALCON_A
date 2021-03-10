@@ -13,14 +13,21 @@ Model-based trading robot. Main features are listed below:
 * Able to read Market Type
 * Able to log Market Type status to the file
 * Works with Reinforcement Learning Policy to identify which market type is more suitable to trade in
+* IMPORTANT: Setup Environmental Variables to syncronize and use scripts inside the repository
 
 # Reference
 
-Functionality of this EA will be explained in the Udemy course [Developing Self Learning Trading Robot](https://www.udemy.com/self-learning-trading-robot/?couponCode=LAZYTRADE7-10)
+*This EA is deprecated.*
+
+It was previously explained in the Udemy course
+
+ [Developing Self Learning Trading Robot](https://www.udemy.com/self-learning-trading-robot)
 
 This repository is to keep existing EA working on 28 currencies and forcedly trained with kNN methods used code from [here](https://www.mql5.com/en/code/8645)
 
 Original code: Stat_Euclidean_Metric.mq4
+
+*Repository will not be maintained or even be deleted in the future.*
 
 # How this will work?
 

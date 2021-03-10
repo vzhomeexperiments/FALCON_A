@@ -5,11 +5,11 @@ rem To be used after training of the robot using Strategy Tester
 setlocal enabledelayedexpansion
 
 :: files generated in the tester\files folder
-set SOURCE_DIR="C:\Program Files (x86)\FxPro - Terminal2\tester\files"
+set SOURCE_DIR="%PATH_T2_T%\tester\files"
 :: files copied to the sandbox folder MQL4\Files
-set DEST_DIR1="C:\Program Files (x86)\FxPro - Terminal1\MQL4\Files"
-set DEST_DIR2="C:\Program Files (x86)\FxPro - Terminal3\MQL4\Files"
-set DEST_DIR3="C:\Program Files (x86)\FxPro - Terminal4\MQL4\Files"
+set DEST_DIR1="%PATH_T1%"
+set DEST_DIR2="%PATH_T3%"
+set DEST_DIR3="%PATH_T4%"
 
 rem only copy *.dat files
 ROBOCOPY %SOURCE_DIR% %DEST_DIR1% *.dat
@@ -17,6 +17,3 @@ ROBOCOPY %SOURCE_DIR% %DEST_DIR2% *.dat
 ROBOCOPY %SOURCE_DIR% %DEST_DIR3% *.dat
 
 ::pause
-
-:: delete data in the file OrdersResultsT1.csv related to the updated systems, also disable sytems in T3
-::"C:\Program Files\R\R-3.5.1\bin\Rscript.exe" "C:\Users\fxtrams\Documents\000_TradingRepo\R_tradecontrol\_OT\delete_data_of_re_trained_bots.R"
